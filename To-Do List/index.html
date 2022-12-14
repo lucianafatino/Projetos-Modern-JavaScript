@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Project - To-Do List</title>
+    <script src="https://kit.fontawesome.com/a34e9960bb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">To-Do List</h1>
+            <form action="" class="search">
+                <input type="text" name="search" class="form-control m-auto" placeholder="Search To-Dos">
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>play mariokart</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>buy clothes</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>do yoga</span>
+                <i class="fa-solid fa-trash-can delete"></i>
+            </li>
+        </ul>
+
+        <form action="" class="add text-center my-4">
+            <label for="" class="text-light mb-2">Add a new to-do...</label>
+            <input type="text" name="add" class="form-control m-auto">
+        </form>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
